@@ -12,7 +12,9 @@ app_ui <- function(request) {
     fluidPage(
       h1("exemplo"),
       sliderInput("exemplo", "exemplo",
-                  min = 0, max = 20, value = 10)
+                  min = 0, max = 20, value = 10),
+      sliderInput("exempl2", "exemplow",
+                  min = 0, max = 40, value = 15)
     )
   )
 }
