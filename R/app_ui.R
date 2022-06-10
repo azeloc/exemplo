@@ -8,7 +8,7 @@ app_ui <- function(request) {
   tagList(
     # Leave this function for adding external resources
     golem_add_external_resources(),
-    # Your application UI logic
+    # A lógica da sua UI
     fluidPage(
       h1("exemplo"),
       sliderInput("exemplo", "exemplo",
