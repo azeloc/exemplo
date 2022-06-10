@@ -13,7 +13,7 @@ app_ui <- function(request) {
       h1("exemplo"),
       sliderInput("exemplo", "exemplo",
                   min = 0, max = 20, value = 10),
-      sliderInput("exempl2", "exemplow",
+      sliderInput("exemplo2", "exemplo2",
                   min = 0, max = 40, value = 15)
     )
   )
