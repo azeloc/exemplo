@@ -14,7 +14,6 @@ app_ui <- function(request) {
       sliderInput("exemplo", "exemplo",
                   min = 0, max = 20, value = 10),
       sliderInput("temperatura", "Selecione a temperatura",
-
                   min = 0, max = 40, value = 15)
     )
   )
@@ -40,7 +39,7 @@ golem_add_external_resources <- function() {
       path = app_sys("app/www"),
       app_title = "exemplo"
     )
-    # Add here other external resources
+    # Adicione aqui seus recursos externos
     # for example, you can add shinyalert::useShinyalert()
   )
 }
