@@ -10,8 +10,8 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # A lógica da sua UI
     fluidPage(
-      h1("exemplo"),
-      sliderInput("exemplo", "exemplo",
+      h1("Parâmetros Físicos"),
+      sliderInput("pressao", "pressao",
                   min = 0, max = 20, value = 10),
       sliderInput("temperatura", "Selecione a temperatura",
                   min = 0, max = 40, value = 15)
