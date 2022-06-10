@@ -14,6 +14,7 @@ app_ui <- function(request) {
       sliderInput("exemplo", "exemplo",
                   min = 0, max = 20, value = 10),
       sliderInput("temperatura", "Selecione a temperatura",
+
                   min = 0, max = 40, value = 15)
     )
   )
