@@ -1,0 +1,13 @@
+name: exemplo
+title: exemplo
+username:
+account: exemplosuzano
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6466379
+bundleId: 5996322
+url: https://exemplosenac.shinyapps.io/exemplo/
+when: 1654868940.82376
+lastSyncTime: 1654868940.82376
+asMultiple: FALSE
+asStatic: FALSE

@@ -9,15 +9,16 @@
 #' @importFrom golem with_golem_options
 run_app <- function(
   onStart = NULL,
-  options = list(),
+  options = list(port = 7455),
   enableBookmarking = NULL,
   uiPattern = "/",
   ...
 ) {
   with_golem_options(
-    app = shinyApp(
+    app = auth0::shinyAppAuth0(
       ui = app_ui,
       server = app_server,
+      config_file = "_auth0.yml",
       onStart = onStart,
       options = options,
       enableBookmarking = enableBookmarking,
